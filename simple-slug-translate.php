@@ -1,13 +1,13 @@
 <?php
 /**
  * Plugin Name:     Simple Slug Translate
- * Plugin URI:      https://github.com/ko31/simple-slug-translate
+ * Plugin URI:      https://github.com/groundcat/wordpress-slug-auto-google-translate
  * Description:     Simple Slug Translate can translate the post, page, category and taxonomy slugs to English automatically.
- * Version:         2.7.3
+ * Version:         2.7.3-google.1
  * Author:          Ko Takagi, modified by groundcat
  * Author URI:      https://go-sign.info
  * License:         GPLv2
- * Text Domain:     simple-slug-translate
+ * Text Domain:     wordpress-slug-auto-google-translate
  * Domain Path:     /languages
  */
 $sst = new simple_slug_translate();
