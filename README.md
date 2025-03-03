@@ -5,55 +5,28 @@
 
 Simple Slug Translate can translate the post, page, category and taxonomy slugs to English automatically.
 
+# Update Information: Google Translate API (No API Key Required!)
+
+This plugin has been modified from its original version to use the free Google Translate API instead of the Watson Language Translator. Key changes include:
+
+* **No API Key Required**: The plugin now uses Google's free translation service - no signup or API key needed!
+* **Auto Language Detection**: Source language is automatically detected - works with any language!
+* **Simplified Interface**: Removed API settings and source language selection to streamline the user interface
+* **Test Functionality**: Added a test button to easily verify translation is working
+* **Error Logging**: Enhanced error logging for easier troubleshooting
+
+To use the updated plugin:
+1. Upload the plugin directory to WordPress
+2. Activate the plugin
+3. Go to "Dashboard" -> "Settings" -> "Simple Slug Translate"
+4. Configure permission settings for which post types and taxonomies to translate
+5. (Optional) Use the Test Translation button to verify functionality
+
 ## Description
 
 Simple Slug Translate can translate the post, page, category and taxonomy slugs to English automatically.
 
 It can make the permalink looks more better, and also may be good for SEO.
-
-The translation engine is powered by [Watson Language Translator](https://www.ibm.com/watson/services/language-translator/). Thanks to that support the following languages:
-
-* Arabic
-* Bulgarian
-* Bengali
-* Czech
-* Danish
-* German
-* Greek
-* English
-* Spanish
-* Finnish
-* French
-* Gujarati
-* Hebrew
-* Hindi
-* Hungarian
-* Italian
-* Japanese
-* Korean
-* Latvian
-* Malayalam
-* Norwegian Bokmal
-* Nepali
-* Dutch
-* Polish
-* Portuguese
-* Romanian
-* Russian
-* Sinhala
-* Slovakian
-* Slovenian
-* Serbian
-* Swedish
-* Thai
-* Turkish
-* Ukrainian
-* Urdu
-* Vietnamese
-* Simplified Chinese
-* Traditional Chinese
-
-In order to use the service, you can apply for an [IBM Cloud Lite](https://www.ibm.com/cloud/lite-account) account and get your own API key of Watson Language Translator. For free plan, you can translate up to 1,000,000 characters per month.
 
 ## Installation
 
@@ -69,92 +42,3 @@ Learn more:
 
 * [Documentation(English)](https://github.com/ko31/simple-slug-translate/wiki/Documentation)
 * [Documentation(Japanese)](https://github.com/ko31/simple-slug-translate/wiki/%E3%83%89%E3%82%AD%E3%83%A5%E3%83%A1%E3%83%B3%E3%83%88)
-
-## Changelog
-
-### 2.7.3
-
-* Fixed bug
-
-### 2.7.2
-
-* Add taxonomy settings
-
-### 2.7.1
-
-* Fixed bug
-
-### 2.7.0
-
-* Add supported languages
-* Add uninstalling process
-* Removed endpoint default value
-
-### 2.6.2
-
-* Fixed bug
-
-### 2.6.1
-
-* Fixed bug
-
-### 2.6.0
-
-* Fixed bug
-* Add overwrite settings
-
-### 2.5.0
-
-* Add supported languages
-
-### 2.4.0
-
-* Add supported languages
-
-### 2.3.1
-
-* Fixed bug
-
-### 2.3.0
-
-* Support service endpoints by location
-
-### 2.2.0
-
-* Add filter hook
-
-### 2.1.0
-
-* Support Gutenberg 
-* Add post type settings
-* Fixed some bugs
-
-### 2.0.0
-
-* Migrate to Language Translator API v3
-
-### 1.2.2
-
-* Fixed bug
-
-### 1.2.1
-
-* Update text
-
-### 1.2.0
-
-* Fixed bugs
-* Add filter hook
-
-### 1.1.0
-
-* Add API settings check
-
-### 1.0.1
-
-* Add scheduled event
-
-### 1.0.0
-
-* Initial Release
-
